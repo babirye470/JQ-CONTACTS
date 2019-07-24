@@ -1,0 +1,21 @@
+form{
+	padding: 12px;
+	width: 70%
+	height: auto;
+	text-align: center;
+	border: 1px solid blue;
+	margin: 0 auto;
+}
+
+
+h1{
+	color: blue;
+	font-weight: bold;
+	text-align: center;
+}
+#show-contact{
+	border: 2px solid blue;
+	padding: 12px;
+	height: auto;
+	margin: 0 auto;
+}
