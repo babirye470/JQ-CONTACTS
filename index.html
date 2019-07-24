@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="jquery-1.10.2.js"></script>
+    <script src="scripts.js"></script>
+    <title>my contact</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Address book</h1>
+
+      <div class="row">
+          <div class="me">
+              <form id="new-contact">
+                  <div class="form-group">
+                      <label for="new-first-name">First name</label><br>
+                      <input type="text" class="form-control" id="new-first-name"><br>
+                  </div>
+                  <div class="form-group">
+                      <label for="new-last-name">Last name</label><br>
+                      <input type="text" class="form-control" id="new-last-name"><br>
+                  </div>
+
+                  <div id="new-addresses">
+                      <div class="address">
+                          <div class="form-group">
+                              <label for="new-street">phone number</label><br>
+                              <input type="text" class="form-control new-street"><br>
+                          </div>
+                          <div class="form-group">
+                              <label for="new-city">City</label><br>
+                              <input type="text" class="form-control new-city"><br>
+                          </div>
+                          <div class="form-group">
+                              <label for="new-state">Address</label><br>
+                              <input type="text" class="form-control new-state"><br>
+                          </div>
+                      </div>
+                  </div>
+
+                  <span class="btn btn-primary" id="add-address"></span>
+                  <button type="submit" class="btn">ADD</button><br><br>
+              </form>
+
+              <h2>Contacts:</h2>
+              
+          </div>
+
+          <div class="me">
+              <div id="show-contact">
+                  <h2>Search now!</h2>
+                  <input type="text" name="search">
+                  <button id=mysearch>Search</button>
+                  <p>First name: </p><br>
+                  <p>Last name: </p><br>
+                  <p>Addresses:</p><br>
+                  <ul id="addresses">
+
+                  </ul>
+              </div>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
